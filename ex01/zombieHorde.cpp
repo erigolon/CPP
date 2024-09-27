@@ -6,11 +6,11 @@
 /*   By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/27 15:32:38 by erigolon          #+#    #+#             */
-/*   Updated: 2024/09/27 15:53:18 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/09/27 16:23:04 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "Zombie.hpp"
+# include "include/Zombie.hpp"
 
 Zombie*	zombieHorde(int N, std::string name)
 {
