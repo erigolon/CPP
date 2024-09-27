@@ -6,11 +6,11 @@
 /*   By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 11:04:39 by erigolon          #+#    #+#             */
-/*   Updated: 2024/09/27 15:26:57 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/09/27 16:23:51 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "Zombie.hpp"
+#include "include/Zombie.hpp"
 
 void	randomChump(std::string name)
 {
