@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+        */
+/*   By: erigolon <erigolon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/01 12:12:52 by erigolon          #+#    #+#             */
-/*   Updated: 2024/10/01 15:08:07 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/10/02 13:44:06 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,15 +63,17 @@ int	fileExists(const char* file_name)
 
 int	main(int argc, char** argv)
 {
-	std::string search = argv[2];
-	std::string replacement = argv[3];
+	std::string search;
+	std::string replacement;
 
 	if (argc != 4)
 	{
 		std::cout << "Incorrect number of parameters." << std::endl;
 		return (1);
 	}
-	else if (!fileExists(argv[1]))
+	search = argv[2];
+	replacement = argv[3];
+	if (!fileExists(argv[1]))
 	{
 		std::cout << "This file does not exist." << std::endl;
 		return (1);

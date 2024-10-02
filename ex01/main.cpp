@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+        */
+/*   By: erigolon <erigolon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 11:04:24 by erigolon          #+#    #+#             */
-/*   Updated: 2024/09/27 16:23:06 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/10/02 13:31:26 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,9 @@ int	main(void)
 	int 	N;
 	Zombie* horde_Z;
 
-	N = 5;	
+	N = 5;
+	if (N < 0)
+		return (-1);
 	horde_Z = zombieHorde(N, "Joe");
 	for (int i = 0; i < N; i++)
 		horde_Z[i].announce();
