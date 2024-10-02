@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+        */
+/*   By: erigolon <erigolon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/01 15:14:35 by erigolon          #+#    #+#             */
-/*   Updated: 2024/10/02 12:37:51 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/10/02 12:52:12 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 
-int main() {
+int main(void) 
+{
     Harl harl;
 
     std::cout << "Test 1: DEBUG level\n";
