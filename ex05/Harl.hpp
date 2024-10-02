@@ -1,22 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Harp.hpp                                           :+:      :+:    :+:   */
+/*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/01 15:16:12 by erigolon          #+#    #+#             */
-/*   Updated: 2024/10/01 15:20:12 by erigolon         ###   ########.fr       */
+/*   Updated: 2024/10/02 12:28:44 by erigolon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HARP_HPP
-# define HARP_HPP
+#ifndef HARL_HPP
+# define HARL_HPP
 
 # include <string>
 # include <iostream>
 
-class Harp
+class Harl
 {
 private:
 
@@ -27,8 +27,8 @@ private:
     
 public:
 
-    Harp(void);
-    ~Harp(void);
+    Harl(void);
+    ~Harl(void);
     
     void	complain(std::string level);
 

@@ -6,13 +6,14 @@
 #    By: erigolon <erigolon@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/10/01 15:12:01 by erigolon          #+#    #+#              #
-#    Updated: 2024/10/01 15:12:16 by erigolon         ###   ########.fr        #
+#    Updated: 2024/10/02 12:38:34 by erigolon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	= replace
+NAME	= harl
 
 SRC		= main.cpp \
+			Harl.cpp
 
 OBJ		= $(SRC:.cpp=.o)
 
